@@ -44,15 +44,19 @@ public class CalculaNominas {
             System.out.println("------------------------------------------------------------------");
             System.out.println("Inserta un numero para elegir su opcion");
             opcion = sc.nextInt();
-
+            String dni;
             switch (opcion) {
+                case 0:
+                    System.out.println("Saliendo");
+                    break;
                 case 1:
                     mbd.mostrarEmpleados();
                     break;
                 case 2:
+                    dni = "";
                     System.out.println("Dime un dni");
                     sc.nextLine();
-                    String dni = sc.nextLine();
+                    dni = sc.nextLine();
                     mbd.mostrarSalarioEmpleado(dni);
                     break;
                 case 3:
@@ -75,7 +79,6 @@ public class CalculaNominas {
                 case 6:
                     mbd.copiaBDEnFichero();
                     break;
-
                 default:
                     System.out.println("La opcion debe estar entre 0 y 6");
                     break;

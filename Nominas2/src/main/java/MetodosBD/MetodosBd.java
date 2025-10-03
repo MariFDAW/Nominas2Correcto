@@ -70,6 +70,9 @@ public class MetodosBd {
             opcion = sc.nextInt();
 
             switch (opcion) {
+                case 0:
+                    System.out.println("Saliendo");
+                    break;
                 case 1:
                     System.out.println("Dime el dni del empleado a actualizar");
                     sc.nextLine();
@@ -125,6 +128,7 @@ public class MetodosBd {
                     break;
 
                 default:
+                    System.out.println("La opcion debe estar entre 0 y 5");
                     break;
             }
         } while (opcion != 0);

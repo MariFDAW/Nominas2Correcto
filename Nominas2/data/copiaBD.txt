@@ -1,4 +1,4 @@
 Nombre: Ada LoveLace,Dni: 32000031R,Sexo: F,Categoria: 1,Años: 4,Sueldo: 90000.0.
 Nombre: James Cosling,Dni: 32000032G,Sexo: M,Categoria: 4,Años: 7,Sueldo: 48000.0.
-Nombre: Maria Garcia,Dni: 32006532F,Sexo: F,Categoria: 4,Años: 5,Sueldo: 38000.0.
-Nombre: Pepa Martinez,Dni: 32097231V,Sexo: F,Categoria: 3,Años: 4,Sueldo: 31000.0.
+Nombre: Maria Garcia,Dni: 32006532F,Sexo: F,Categoria: 5,Años: 10,Sueldo: 65000.0.
+Nombre: Pepa martinez,Dni: 32097231V,Sexo: F,Categoria: 2,Años: 4,Sueldo: 110000.0.
